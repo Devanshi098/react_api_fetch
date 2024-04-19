@@ -23,6 +23,7 @@ const MovieList = () => {
   return (
     <div className="movie-list">
       <h2>Popular Movies</h2>
+      <h1>BHUMI</h1>
       <div className="movie-cards">
         {movies.map((movie) => (
           <div className="movie-card" key=
@@ -38,6 +39,7 @@ const MovieList = () => {
               <h3>{movie.title}</h3>
               <p>Release Date: {movie.release_date}</p>
               <p>Rating: {movie.vote_average}</p>
+      
               <p>{movie.overview}</p>
             </div>
           </div>
